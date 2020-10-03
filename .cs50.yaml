@@ -1,0 +1,12 @@
+check50:
+    files:
+      -	!exclude "*"
+      -	!require "suma.cpp"
+      -	!require "output01.txt"
+
+lab50:
+    files:
+      -	!exclude "*"
+      -	!incklude "suma.cpp"
+      -	!include "input01.txt"
+      -	!include "output01.txt"
